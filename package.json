@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "format": "prettier --write ."
-    },
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "husky": "^8.0.0",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"
   }
 }

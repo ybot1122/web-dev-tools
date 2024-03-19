@@ -1,6 +1,5 @@
-const linter = require('./linter');
+const linter = require("./linter");
 
-
-test('linter returns text', () => {
-  expect(linter('code')).toBe([]);
+test("linter returns text", () => {
+  expect(linter("code")).toBe([]);
 });
