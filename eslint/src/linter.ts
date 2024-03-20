@@ -1,3 +1,5 @@
+import acorn from "acorn";
+
 /**
  *
  * @param {string} text - code in raw text format
@@ -5,6 +7,7 @@
  */
 
 function linter(text) {
+  console.log(acorn.parse("const p = 1; p = 2", { ecmaVersion: 2020 }));
   return [];
 }
 
