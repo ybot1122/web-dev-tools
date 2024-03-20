@@ -4,7 +4,8 @@
  * @returns {string[]} list of linter errors found
  */
 
-function lint(text) {
+function linter(text) {
   return [];
 }
-module.exports = sum;
+
+export { linter };
