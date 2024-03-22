@@ -7,7 +7,11 @@ import acorn from "acorn";
  */
 
 function linter(text) {
-  console.log(acorn.parse("const p = 1; p = 2", { ecmaVersion: 2020 }));
+  const ast = acorn.parse("const p = 1; p = 2", { ecmaVersion: 2020 });
+  console.log(ast);
+
+  const constDeclarations = [];
+
   return [];
 }
 
